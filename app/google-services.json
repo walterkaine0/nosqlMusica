@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "27787438389",
+    "firebase_url": "https://optimusprime-b4bc5-default-rtdb.firebaseio.com",
+    "project_id": "optimusprime-b4bc5",
+    "storage_bucket": "optimusprime-b4bc5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27787438389:android:ca1a2d6fb9ad88e918c47c",
+        "android_client_info": {
+          "package_name": "com.example.optimusprime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlx00f-7SmGMHJlIjk4JuaHq1jGvcDYAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27787438389:android:05fa12ace88a2e1018c47c",
+        "android_client_info": {
+          "package_name": "com.example.uga"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlx00f-7SmGMHJlIjk4JuaHq1jGvcDYAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
