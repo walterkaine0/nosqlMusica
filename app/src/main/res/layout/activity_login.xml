@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Шкибиторизация"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Емайл"
+        android:paddingLeft="16dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B3B3B3"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/passInput"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Проходить слово"
+        android:inputType="textPassword"
+        android:paddingLeft="16dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B3B3B3"
+        android:layout_marginBottom="32dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/btn_rounded"
+        android:text="ЗАЛЕТЕТЬ"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtGoToRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Не имеется акк? Логинься!"
+        android:textColor="#B3B3B3"
+        android:textStyle="bold" />
+
+</LinearLayout>
