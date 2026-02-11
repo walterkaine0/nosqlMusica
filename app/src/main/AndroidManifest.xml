@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Optimusprime">
 
-        <!-- Экран входа — теперь он ПЕРВЫЙ при запуске -->
+
         <activity
             android:name=".LoginActivity"
             android:exported="true">
